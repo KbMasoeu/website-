@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+    url(images/eelco-bohtlingk-Vb8G0GOIV-E-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 8%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+  padding-right: 30px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+}
+
+nav ul li a {
+  color: antiquewhite;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a:hover {
+  color: indianred;
+  -webkit-transition: top 500ms ease;
+  -moz-transition: top 500ms ease;
+  -o-transition: top 500ms ease;
+  transition: top 500ms ease;
+  transform: translateZ(0.3s);
+}
+
+.text-box {
+  color: antiquewhite;
+  position: absolute;
+  bottom: 8%;
+}
+
+.text-box p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-box h1 {
+  font-size: 140px;
+  line-height: 115px;
+  margin-left: -10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.text-box a {
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid antiquewhite;
+}
+
+.home-WhoAreWe {
+  padding: 5em 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.row2 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.row2 h1 {
+  font-size: 70px;
+  line-height: 95px;
+  margin-top: -100px;
+  position: relative;
+  color: black;
+  text-align: center;
+  display: table;
+}
+
+.row2 br p {
+  text-align: center;
+  line-height: 95px;
+  margin-top: -100px;
+  position: relative;
+  display: table;
+}
+
+.row2 column {
+  float: left;
+  width: 25%;
+}
+
+.row2 coloumn::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.more-Donate {
+  width: 100%;
+  height: 100vh;
+  padding: 5em 0;
+  display: grid;
+  grid-gap: 2em;
+  align-items: center;
+  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
+      1em,
+      1fr
+    );
+}
+
+.from-left {
+  grid-column: 2 / 3;
+}
+
+.from-right {
+  grid-column: 3 / 3;
+}
+
+.container1 {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/elephants.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+  transition: 0.2s;
+}
+
+button {
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
+  cursor: pointer;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  line-height: 95px;
+  margin-top: -550px;
+  position: absolute;
+  color: antiquewhite;
+}
+
+.hero p {
+  color: antiquewhite;
+  position: absolute;
+  line-height: 95px;
+  text-align: center;
+}
+
+footer {
+  background-color: bisque;
+  display: flex;
+}
+
+.footer row1 {
+  margin-left: -100px;
+}
